@@ -47,3 +47,8 @@ processResources {
         expand props
     }
 }
+
+jar {
+    archiveFileName = project.name + ".jar"
+    destinationDirectory.set(file("C:\\Users\\peoplecom\\Desktop\\sever\\plugins"))
+}
